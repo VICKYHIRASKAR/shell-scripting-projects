@@ -1,5 +1,18 @@
 #!/bin/bash
 
+##############
+# Author: Vicky H
+# Date: 03/08/2024
+# Version 
+#
+##############
+function helper {
+expected_cmd_args=2
+if [ $# -ne $expected_cmd_args]; then 
+echo "please execute the script with required cmd args"
+echo "asd"
+}
+
 # GitHub API URL
 API_URL="https://api.github.com"
 
